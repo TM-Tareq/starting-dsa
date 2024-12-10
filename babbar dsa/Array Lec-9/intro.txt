@@ -1,0 +1,13 @@
+Q: What is array?
+Array has only similar type of item
+
+Array stored in contiguous memory location
+
+Q. Why?
+*** By helping of arrays can stored multiple values in a single variable
+
+Q. Find location
+Array size = n
+So, index = n - 1 = location of n
+
+If the value is 0 or a value that fits into a single byte, you can use the memset function from <string.h>. memset(arr, 0, sizeof(arr)); // Set all bytes to 0 (good for initializing to 0)
